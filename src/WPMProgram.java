@@ -54,6 +54,7 @@ public class WPMProgram {
         int wpm = (int) (((((double) numChars / 5) - errors) / seconds) * 60);
         System.out.println("Your wpm is " + wpm + "!");
         System.out.println("You got " + (size - errors) + " out of " + size + " words correct");
+        //hi
     }
 }
 
